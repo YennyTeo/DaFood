@@ -1,0 +1,118 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAF0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3EB489;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.back-icon img,
+.profile-icon img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.dafood-logo {
+  background-color: #94FFD4;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;
+}
+
+.content-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.insert-recipe-content {
+  font-family: 'Indie Flower', cursive;
+  padding: 20px;
+}
+
+.flavor-options {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#insert-recipe-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#insert-recipe-form label {
+  display: block;
+  margin-bottom: 10px; /* Increase margin for better spacing */
+}
+
+#insert-recipe-form input,
+#insert-recipe-form textarea {
+  width: 100%;
+  padding: 10px; /* Increase padding for better input field visibility */
+  margin-bottom: 15px; /* Increase margin for better spacing */
+  box-sizing: border-box;
+}
+
+#insert-recipe-form button {
+  background-color: #94FFD4;
+  color: #000000;
+  padding: 12px 24px; /* Adjust padding for better button visibility */
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+#insert-recipe-form button:hover {
+  background-color: #3EB489;
+  color: #ffffff;
+}
+
+img {
+  width: 259px;
+  height: 187px;
+  object-fit: cover;
+}
+
+/* Media query for smaller screens (phones) */
+@media screen and (max-width: 479px) {
+  .insert-recipe-content {
+    padding: 10px;
+  }
+
+  #insert-recipe-form {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  #insert-recipe-form input,
+  #insert-recipe-form textarea {
+    margin-bottom: 10px;
+  }
+}

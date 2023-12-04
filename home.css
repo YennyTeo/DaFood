@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAF0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3EB489;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.profile-icon img {
+  width: 30px; 
+  height: 30px; 
+  cursor: pointer;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 10px;
+  border-radius: 20px; 
+  overflow: hidden;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 20px; 
+}
+
+.dafood-logo {
+  background-color: #94FFD4;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive; 
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.content-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.content-text {
+  font-size: 28px; 
+  margin-bottom: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.ingredient-input input {
+  margin: 10px auto;
+  padding: 15px; 
+  box-sizing: border-box;
+}
+
+.flavor-options {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.flavor-options label {
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: #94FFD4;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 479px) {
+  body {
+    font-size: 14px; 
+  }
+
+  .search-bar {
+    margin: 0 5px;
+  }
+
+  .ingredient-input input {
+    width: 100%;
+  }
+
+  .flavor-options label {
+    margin: 3px;
+  }
+
+  .search-button {
+    padding: 8px 15px;
+  }
+}

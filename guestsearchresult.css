@@ -1,0 +1,97 @@
+body {
+    font-family: 'Indie Flower', cursive; 
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAF0;
+}
+  
+header {
+    background-color: #94FFD4;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #000000;
+    font-family: 'Indie Flower', cursive;
+}
+  
+.back-icon img, .profile-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+  
+.search-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+  
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+  
+.dafood-logo {
+    background-color: #94FFD4;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+}
+  
+.content-container {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.recipe-component {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+  
+.recipe-image {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+  
+.recipe-image img {
+    max-width: 200px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add border-radius for a rounded look */
+}
+  
+.recipe-info {
+    flex: 1;
+}
+  
+/* Media query for smaller screens (phones) */
+@media screen and (max-width: 479px) {
+    .search-bar {
+      margin: 0 5px;
+    }
+  
+    .content-container {
+      padding: 10px;
+    }
+  
+    .recipe-component {
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 10px 0;
+    }
+  
+    .recipe-image {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+}
+  
