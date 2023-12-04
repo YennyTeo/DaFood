@@ -1,0 +1,139 @@
+body {
+    font-family: 'Indie Flower', cursive; 
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAF0;
+}
+
+header {
+    background-color: #94FFD4;
+    text-align: center;
+    padding: 10px;
+}
+
+.back-icon img,
+.profile-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.dafood-logo {
+    background-color: #94FFD4;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+}
+
+.content-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.recipe-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recipe-detail h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.recipe-detail p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.ratings-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.ratings-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ratings-section form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ratings-section label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.ratings-section input,
+.ratings-section textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.ratings-section input[type="submit"] {
+    background-color: #3EB489;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.ratings-section input[type="submit"]:hover {
+    background-color: #2E906D;
+}
+
+
+img {
+    width: 259px;
+    height: 187px;
+    object-fit: cover; /* Maintain aspect ratio and cover the specified size */
+}
+
+/* Media query for smaller screens (phones) */
+@media screen and (max-width: 479px) {
+    .search-bar {
+        margin: 0 5px;
+    }
+
+    .recipe-detail h2 {
+        font-size: 20px; /* Adjust font size for better readability */
+    }
+
+    .recipe-detail h3 {
+        font-size: 18px; /* Adjust font size for better readability */
+        margin-bottom: 8px; /* Adjust margin for better spacing */
+    }
+
+    .recipe-detail p {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+
+    .content-container {
+        margin-top: 30px; /* Adjust margin for better spacing on smaller screens */
+    }
+}

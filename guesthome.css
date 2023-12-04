@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAF0;
+}
+
+header {
+  background-color: #94FFD4;
+  text-align: center;
+  padding: 10px;
+}
+
+h1,h2 {
+  margin: 0;
+  color: #000000;
+  font-family: 'Indie Flower', cursive;
+}
+
+.content-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.content-text {
+  font-size: 28px; 
+  margin-bottom: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.ingredient-input input {
+  margin: 10px auto;
+  padding: 15px; 
+  box-sizing: border-box;
+}
+
+.flavor-options {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.flavor-options label {
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: #94FFD4;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 479px) {
+  body {
+    font-size: 14px; 
+  }
+
+  .search-bar {
+    margin: 0 5px;
+  }
+
+  .ingredient-input input {
+    width: 100%;
+  }
+
+  .flavor-options label {
+    margin: 3px;
+  }
+
+  .search-button {
+    padding: 8px 15px;
+  }
+}

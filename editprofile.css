@@ -1,0 +1,108 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAF0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3EB489;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.profile-icon img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin: 0 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.dafood-logo {
+  background-color: #94FFD4;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  margin: 0;
+  color: #000000;
+  font-family: 'Indie Flower', cursive;
+}
+
+.profile-content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Indie Flower', cursive;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #94FFD4;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.success-message,
+.error-message {
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+@media screen and (max-width: 479px) {
+  input {
+      width: 100%;
+  }
+
+  .search-bar {
+    margin: 0 5px; 
+  }
+
+  .search-bar input {
+    border-radius: 10px; /* Reduce border-radius for a more compact input field */
+  }
+}
