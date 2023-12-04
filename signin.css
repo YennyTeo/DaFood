@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafaf0;
+}
+
+header {
+  background-color: #94FFD4;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  color: #000000; 
+  font-family: 'Indie Flower', cursive;
+}
+
+.signin-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.signin-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.signin-input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px; 
+  box-sizing: border-box;
+}
+
+.signin-button {
+  background-color: #94FFD4;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+
+.signup-link {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #000000; 
+  font-family: "IM FELL Great Primer", serif;
+}
+
+/* Media query for smaller screens (phones) */
+@media screen and (max-width: 479px) {
+  /* Adjustments for smaller screens */
+  body {
+    font-size: 14px; /* Adjust the base font size for better readability on smaller screens */
+  }
+
+  .signin-input {
+    width: 100%;
+  }
+
+  .signin-button {
+    padding: 8px 15px;
+  }
+}
