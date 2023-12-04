@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAF0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3EB489;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.profile-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.dafood-logo {
+    background-color: #94FFD4;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+}
+
+.content-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.insert-recipe-content {
+    font-family: 'Indie Flower', cursive;
+    padding: 20px;
+}
+
+#insert-recipe-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#insert-recipe-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#insert-recipe-form input,
+#insert-recipe-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#insert-recipe-form button {
+    background-color: #94FFD4;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#insert-recipe-form button:hover {
+    background-color: #3EB489;
+    color: #ffffff;
+}
+
+/* Media query for smaller screens (phones) */
+@media screen and (max-width: 479px) {
+    header {
+        flex-direction: column; /* Stack header items vertically on smaller screens */
+        align-items: flex-start; /* Adjust alignment for better readability */
+        padding: 15px; /* Increase padding for better spacing */
+    }
+
+    .search-bar {
+        margin: 10px 0; /* Adjust margin for better spacing on smaller screens */
+    }
+
+    .dafood-logo {
+        display: block; /* Make the DaFood logo a block-level element for full width */
+        width: 100%; /* Make the DaFood logo take full width on smaller screens */
+        margin-top: 10px; /* Adjust margin for better spacing */
+    }
+
+    .insert-recipe-content {
+        padding: 10px; /* Adjust padding for better spacing on smaller screens */
+    }
+
+    #insert-recipe-form {
+        max-width: 100%; /* Make the form take full width on smaller screens */
+        padding: 10px; /* Adjust padding for better spacing on smaller screens */
+    }
+
+    #insert-recipe-form input,
+    #insert-recipe-form textarea {
+        margin-bottom: 8px; /* Adjust margin for better spacing on smaller screens */
+    }
+
+    #insert-recipe-form button {
+        padding: 8px 16px; /* Adjust padding for better spacing on smaller screens */
+        font-size: 14px; /* Adjust font size for better readability */
+        border-radius: 15px; /* Adjust border-radius for a more rounded button */
+    }
+
+    #insert-recipe-form button:hover {
+        background-color: #3EB489;
+        color: #ffffff;
+    }
+}
